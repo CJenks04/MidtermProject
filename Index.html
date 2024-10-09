@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cameron's Portfolio</title>
+    <!--linking Bootstrap CSS for styling-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!--linking custom CSS file for additional stylin-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--nav bar-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Cameron Jenks</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--navbar links-->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <!--links to page sections-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home"><span class="hashtag">#</span>home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#works"><span class="hashtag">#</span>works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutme"><span class="hashtag">#</span>about-me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html"><span class="hashtag">#</span>contacts</a>
+                        </li>
+                        <!--dropdown lang-->
+                        <li class="nav-item dropdown dropdown-margin">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                Language
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="languageDropdown">
+                                <!--lang options-->
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Spanish</a></li>
+                                <li><a class="dropdown-item" href="#">French</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--social media links-->
+    <div class="social-icons">
+        <!--insta-->
+        <a href="https://www.instagram.com/therealcamjenks/" target="_blank">
+            <img src="images/instagram.png" alt="Instagram" class="social-icon">
+        </a>
+        <!--facebook-->
+        <a href="https://www.facebook.com/cameron.jenks.1694/" target="_blank">
+            <img src="images/facebook.png" alt="Facebook" class="social-icon">
+        </a>
+        <!--linkedIn-->
+        <a href="https://www.linkedin.com/in/cam-jenks-25054a199" target="_blank">
+            <img src="images/linkedin.png" alt="LinkedIn" class="social-icon">
+        </a>
+    </div>
+
+    <!--main text + image-->
+    <main class="flex-container">
+        <!--text content container-->
+        <section class="text-container">
+            <!--main text-->
+            <h1 class="centered-title">
+                <!--span used to turn text purple-->
+                <span class="purpleText">Cameron</span> is a <span class="purpleText">web designer</span> and<br>
+                <span class="purpleText">front-end developer</span>
+            </h1>
+            <!--subtext-->
+            <p class="paragraph-style">He crafts responsive websites where technologies<br>
+                meet creativity.</p> 
+            <!--button linking to contact page-->
+            <a href="contacts.html">
+                <button class="btn btn-purple">Contact me!!</button>
+            </a>
+        </section>
+        <!--container's to position image-->
+        <aside class="subjectImageContainer">
+            <div class="subjectContainer">
+                <!--image-->
+                <img src="images/41ade353515843fc44bf4f33ac8d48cd.png" alt="Description of the image" class="right-image">
+            </div>
+            <!--status box-->
+                <div class="statusBox"> 
+                    <p class="info-text">Currently working on Portfolio</p>
+                </div>
+        </aside>
+    </main>
+
+    <!--quote section-->
+    <section class="quoteContainer">
+        <!--blockquote tag to represent quote from source-->
+        <blockquote>
+            <span class="topQuote">“</span>
+            <span class="quoteText">with great power comes great electricity bill</span>
+            <span class="bottomQuote">”</span>
+        </blockquote>
+    </section>    
+    <!--quote source-->
+    <span class="quoteSource">- Dr. Who</span>
+
+    <!--projects section, header, link to view all-->
+    <section class="projectsHeader">
+        <h2 class="sectionTitle"><span class="hashtag">#</span>projects</h2>
+        <!--divider-->
+        <div class="sectionDivider"></div>
+        <!--all projects link-->
+        <a href="#" class="viewLink">View All &#8594;</a>
+    </section>
+
+
+    <div class="projectGroup">
+        <!--first project tab-->
+        <article class="projectTab">
+            <!--container for image-->
+            <div class="projectImageContainer">
+                <img src="images/banner1.png" alt="Project 1 Image" class="projectImage">
+            </div>
+            <!--divider-->
+            <div class="projectDivider"></div>
+            <div class="projectText">
+                <p>HTML, SCSS, Python, Flask</p>
+            </div>
+            <!--divider-->
+            <div class="projectDivider"></div>
+            <!--project title-->
+            <h3 class="projectTitle">ChertNodes</h3>
+            <!--project description -->
+            <p class="projectText">Minecraft servers hosting</p>
+            <!--Buttons -->
+            <a href="#" class="btn btn-purple">Live</a>
+            <a href="#" class="btn btn-purple">View Project</a> 
+        </article>
+    
+        <!--second project tab-->
+        <article class="projectTab">
+            <div class="projectImageContainer">
+                <img src="images/banner2.jpeg" alt="Project 2 Image" class="projectImage">
+            </div>
+            <!--Divider-->
+            <div class="projectDivider"></div>
+            <div class="projectText">
+                <p>React, Express, Discord.js, Node.js, HTML, SCSS, Python, Flask</p>
+            </div>
+            <!--Divider-->
+            <div class="projectDivider"></div>
+            <!--Project title-->
+            <h3 class="projectTitle">ProtectX</h3>
+            <!--project description-->
+            <p class="projectText">Discord anti-crash bot</p>
+            <!--Buttons-->
+            <a href="#" class="btn btn-purple">Live</a>
+            <a href="#" class="btn btn-purple">View Project</a> 
+        </article>
+    
+        <!-- third project tab -->
+        <article class="projectTab">
+            <!-- image container -->
+            <div class="projectImageContainer">
+                <img src="images/banner3.jpeg" alt="Project 3 Image" class="projectImage">
+            </div>
+            <!--Divider-->
+            <div class="projectDivider"></div>
+            <div class="projectText">
+                <p>CSS, Express, Node.js</p>
+            </div>
+            <!--Divider-->
+            <div class="projectDivider"></div>
+            <!--project title-->
+            <h3 class="projectTitle">Kahoot Answers Viewer</h3>
+            <!--project description-->
+            <p class="projectText">Get answers to your kahoot quiz</p>
+            <!--button-->
+            <a href="#" class="btn btn-purple">View Project</a>
+        </article>
+    </div>
+    
+    <!--skills header-->
+    <section class="skillsHeader">
+        <h2 class="sectionTitle"><span class="hashtag">#</span>skills</h2>
+        <!--Divider-->
+        <div class="sectionDivider2"></div>
+    </section>
+    
+    <!--skill tabs-->
+    <div class="skillsTabs">
+        <!-- languages tab -->
+        <div class="skillsTab">
+            <h3 class="skillsTitle">Languages</h3>
+            <p class="skillsDescription">TypeScript, Lua, Python, JavaScript</p>
+        </div>
+    
+        <!--databases tab-->
+        <div class="skillsTab">
+            <h3 class="skillsTitle">Databases</h3>
+            <p class="skillsDescription">SQLite, PostgreSQL, Mongo</p>
+        </div>
+    
+        <!--other tab-->
+        <div class="skillsTab">
+            <h3 class="skillsTitle">Other</h3>
+            <p class="skillsDescription">HTML, CSS, EJS, SCSS, REST, Jinja</p>
+        </div>
+        
+        <!--tools tab-->
+        <div class="skillsTab">
+            <h3 class="skillsTitle">Tools</h3>
+            <p class="skillsDescription">VSCode, Neovim, Linux, Figma, XFCE, Arch, Git, Font Awesome</p>
+        </div>
+    
+        <!--frameworks tab-->
+        <div class="skillsTab">
+            <h3 class="skillsTitle">Frameworks</h3>
+            <p class="skillsDescription">React, Vue, Disnake, Discord.js, Flask, Express.js</p>
+        </div>
+    </div>
+    
+    <!--about me header-->
+    <div class="skillsHeader">
+        <h2 class="sectionTitle"><span class="hashtag">#</span>about-me</h2>
+        <!--Divider-->
+        <div class="sectionDivider2"></div>
+    </div>
+    
+    <!--about me text-->
+    <div class="aboutmeContent">
+        <p>Hello, I’m Elias! I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
+    </div>
+    
+    <!--view project button-->
+    <div class="aboutmeButtonContainer">
+        <a href="#" class="btn btnAboutMe">View Project</a>
+    </div>
+    
+    <!--contacts header-->
+    <div class="skillsHeader">
+        <h2 class="sectionTitle"><span class="hashtag">#</span>contacts</h2>
+        <!--divider-->
+        <div class="sectionDivider2"></div>
+    </div>
+    
+    <!--contacts content-->
+    <div class="contactsContent">
+        <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
+    </div>
+    
+    <!--footer-->
+    <footer class="footer">
+        <!--container-->
+        <div class="footer-container">
+            <!--footer content-->
+            <div class="footer-content">
+                <div class="sectionDivider3"></div>
+                <h2 class="footer-name">Cameron Jenks</h2>
+                <p class="footer-description">Web designer and front-end developer</p>
+            </div>
+            <!--copyright-->
+            <div class="footer-copyright">
+                <p>&copy; 2024 Made by Cameron Jenks</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+    

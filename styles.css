@@ -1,0 +1,393 @@
+body {
+    background-color: #2E2E2E; 
+    color: white;            
+    font-family: 'Fira Code', monospace;
+}
+
+.hashtag {
+    color: #A052BC;
+    font-size: 1.2em; 
+}
+
+.flex-container {
+    display: flex;              
+    flex-wrap: wrap;         
+    align-items: center;        
+    justify-content: center;     
+    max-width: 1200px;         
+    width: 100%;                
+    margin: 0 auto;            
+    padding-top: 30px;     
+}
+
+.centered-title {
+    max-width: 600px;   
+    text-align: left;    
+    margin: 0;              
+    font-size: 30px;  
+    font-weight: 400;   
+    line-height: 25px;  
+}
+
+.subjectImageContainer {
+    display: flex;              
+    flex-direction: column;    
+    align-items: center;       
+    margin-left: 20px;           
+}
+
+.subjectContainer {
+    width: 100%;          
+    max-width: 600px; 
+}
+
+.right-image {
+    width: 100%;            
+    height: 400px;          
+    object-fit: cover;    
+}
+
+.quoteContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 80px; 
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.quoteSource {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.quoteText {
+    font-size: 24px; 
+    color: #ffffff; 
+}
+
+.topQuote, .bottomQuote {
+    font-size: 60px; 
+    color: #ffffff; 
+}
+
+.projectsHeader, .skillsHeader, .aboutmeHeader, .socialsHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 60px; 
+    padding: 20px 0;
+}
+
+.sectionTitle {
+    font-size: 36px; 
+}
+
+.sectionDivider, .sectionDivider2, .sectionDivider3 {
+    height: 2px;
+    background-color: #A052BC; 
+    margin: 0 15px; 
+}
+
+.sectionDivider {
+    width: 900px; 
+}
+
+.sectionDivider2 {
+    width: 300px;
+}
+
+.sectionDivider3 {
+    width: auto;
+}
+
+
+.purpleText {
+    color:#A052BC; 
+}
+
+
+.viewLink {
+    color: #A052BC; 
+    text-decoration: none; 
+}
+
+.projectGroup {
+    display: flex;               
+    justify-content: center;     
+    flex-wrap: wrap;          
+    margin-top: 20px;          
+    max-width: 100%;        
+}
+
+.projectTab {
+    background-color: transparent; 
+    padding: 0; 
+    width: 300px; 
+    text-align: left; 
+    border: 2px solid #1C1C1C; 
+    border-radius: 10px;
+    box-shadow: none; 
+    overflow: hidden; 
+    margin: 20px; 
+}
+
+.projectText {
+    padding-left: 10px;
+}
+
+.projectTitle {
+    padding-left: 10px;
+}
+
+.projectImageContainer {
+    width: 100%; 
+}
+
+.projectImage {
+    width: 100%;            
+    height: auto;          
+}
+
+.projectDivider {
+    height: 2px; 
+    background-color: #A052BC; 
+    margin: 10px 0; 
+}
+
+.skillsTabs {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+
+.skillsTab {
+    background-color: transparent; 
+    padding: 10px; 
+    width: 200px; 
+    text-align: left; 
+    border: 2px solid #ffffff; 
+    border-radius: 10px;
+    box-shadow: none; 
+    margin: 10px auto; 
+}
+
+.skillsTitle {
+    font-size: 24px; 
+    color: #A052BC; 
+}
+
+.skillsDescription {
+    color: #ffffff; 
+}
+
+.aboutmeContent {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;  
+    max-width: 600px;
+    width: 100%; 
+    text-align: center; 
+}
+
+
+.statusBox {
+    border: 2px solid white; 
+    padding: 10px;         
+    border-radius: 5px;    
+    color: #ffffff;        
+    background-color: rgba(0, 0, 0, 0); 
+}
+
+.btn-purple {
+    background-color: #A052BC; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin: auto; 
+    text-align: center; 
+}
+
+.btnAboutMe {
+    background-color: #A052BC; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin: 20px auto; 
+    display: block; 
+    text-align: center; 
+}
+
+
+.aboutmeButtonContainer {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+
+.btn-purple:hover {
+    background-color: #8B3E99; 
+}
+
+.contactsContent {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto; 
+    max-width: 600px;
+    width: 100%; 
+    text-align: center; 
+}
+
+.social-icons {
+    position: fixed; 
+    left: 20px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+.social-icon {
+    width: 30px; 
+    height: auto;
+    transition: transform 0.2s; 
+}
+
+.social-icon:hover {
+    transform: scale(1.1); 
+}
+
+.contactpageContent {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;  
+    max-width: 600px;
+    width: 100%; 
+    text-align: center; 
+}
+
+
+
+
+/* social section of contacts page*/
+.socials-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 0 15px;
+}
+
+.social img {
+    width: 50px; 
+    height: auto; 
+}
+
+.username {
+    text-align: center; 
+    color: #A052BC; 
+    margin-top: 5px; 
+}
+
+
+/* footer css */ 
+.footer {
+    background-color: #2E2E2E;
+    color: white; 
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px; 
+    margin: auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-center; 
+    padding-top: 50px;
+}
+
+.footer-content {
+    margin-bottom: 10px; 
+}
+
+.footer-name {
+    font-size: 24px; 
+    font-weight: bold; 
+}
+
+.footer-description {
+    font-size: 16px; 
+    margin: 0; 
+    text-align: center;
+}
+
+.footer-copyright {
+    font-size: 14px; 
+    text-align: center;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .centered-title {
+        text-align: center; 
+    }
+
+    .subjectImageContainer {
+        margin-left: 0; 
+        align-items: center; 
+    }
+
+    .projectTab {
+        width: 90%; 
+        margin: 10px 0; 
+    }
+
+    .skillsColumn {
+        flex: 1 1 100%; 
+        margin: 0; 
+    }
+
+    .skillsTab {
+        width: 90%;
+        flex: 0 1 calc(50% - 20px); 
+    }
+
+    .footer-name {
+        font-size: 20px; /* Slightly smaller name on mobile */
+    }
+
+    .footer-description {
+        font-size: 14px; /* Slightly smaller description on mobile */
+    }
+
+    .footer-copyright {
+        font-size: 12px; /* Slightly smaller copyright text on mobile */
+    }
+}
+
